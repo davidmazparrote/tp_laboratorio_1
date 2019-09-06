@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1567625321 source:c:\users\davidynadia\desktop\utn\archivoscodeblocks\1tp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<operacionesMatBasicas.h>
+
+1567170567 source:c:\users\davidynadia\desktop\utn\archivoscodeblocks\1tp\src\operacionesbasicas.cpp
+	"operacionesBasicas.h"
+
+1567170738 c:\users\davidynadia\desktop\utn\archivoscodeblocks\1tp\include\operacionesbasicas.h
+
+1567624914 c:\users\davidynadia\desktop\utn\archivoscodeblocks\1tp\include\operacionesmatbasicas.h
+
