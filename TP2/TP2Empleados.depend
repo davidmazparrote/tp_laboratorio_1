@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1570209323 source:c:\users\davidynadia\desktop\utn\archivoscodeblocks\tp2empleados\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"empleados.h"
+
+1570209236 source:c:\users\davidynadia\desktop\utn\archivoscodeblocks\tp2empleados\empleados.c
+	"empleados.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1570209236 c:\users\davidynadia\desktop\utn\archivoscodeblocks\tp2empleados\empleados.h
+
