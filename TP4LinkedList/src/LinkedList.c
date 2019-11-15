@@ -57,7 +57,7 @@ static Node* getNode(LinkedList* this, int nodeIndex)
     Node* pNode = NULL;
     if(this != NULL)
     {
-        if(nodeIndex >=0 && nodeIndex < ll_len(this))//si mi size es 3 el index esta entre 0,1 o 2
+        if(nodeIndex >=0 && nodeIndex <= ll_len(this))//si mi size es 3 el index esta entre 0,1 o 2
         {
 
             pNode = this->pFirstNode;
@@ -105,7 +105,7 @@ static int addNode(LinkedList* this, int nodeIndex,void* pElement)
     if(this != NULL)
     {
 
-        if(nodeIndex >=0 && nodeIndex < ll_len(this)+1)//si mi size es 3 el index esta entre 0,1 o 2
+        if(nodeIndex >=0 && nodeIndex < ll_len(this)+1)//si mi size es 3 el index esta entre 0,1 o 2 o podria ser <=lllen
         {
             pNode = (Node*)malloc(sizeof(Node));//cree un nuevo nodo
             pNode->pElement = pElement;
@@ -195,7 +195,7 @@ int ll_set(LinkedList* this, int index,void* pElement)
     int returnAux = -1;
     if(this != NULL)
     {
-        if(index >= 0 && index < ll_len(this))
+        if(index >= 0 && index <= ll_len(this))
         {
             getNode(this,index)->pElement = pElement;
             returnAux = 0;
